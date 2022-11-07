@@ -1,0 +1,12 @@
+.selectChar{
+    display: flex;
+    justify-content: space-around;
+    height: 300px;
+    margin: 100px;
+}
+
+.char{
+    display: flex;
+    height: 300px;
+}
+
