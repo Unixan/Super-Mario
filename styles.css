@@ -1,12 +1,101 @@
-.selectChar{
+body {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    user-select: none;
+}
+
+.selectChar {
     display: flex;
     justify-content: space-around;
     height: 300px;
     margin: 100px;
+    border: solid black 3px;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
-.char{
+.char {
     display: flex;
     height: 300px;
+    cursor: pointer;
 }
 
+.char:active {
+    border: solid red 3px;
+}
+
+h1 {
+    font-family: "Arial Black", Gadget, sans-serif;
+    font-size: 40px;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    color: #000000;
+    font-weight: 700;
+    text-decoration: none;
+    font-style: normal;
+    font-variant: small-caps;
+    text-transform: uppercase;
+}
+
+.playerBox {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.combatBox {
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.statsBox {
+    display: flex;
+    justify-content: center;
+    border: solid black 3px;
+    padding: 10px;
+    font-family: "Arial Black", Gadget, sans-serif;
+    font-size: 20px;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    color: #000000;
+    font-weight: 700;
+    text-decoration: none;
+    font-style: normal;
+    font-variant: small-caps;
+    text-transform: uppercase;
+    background: #FF0000;
+    box-shadow: 0px 1px 18px 6px #000000;
+    background: radial-gradient(center, #FF0000 0%, #00FF2A 50%, #FF0000 100%);
+    background: radial-gradient(ellipse at center, #00FF2A 0%, #FF0000 100%);
+    margin-top: 50px;
+}
+
+.button {
+    margin-top: 50px;
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+    line-height: 16px;
+    padding: 20px;
+    border-radius: 10px;
+    font-family: "Arial Black", Gadget, sans-serif;
+    font-weight: 700;
+    text-decoration: none;
+    font-style: normal;
+    font-variant: small-caps;
+    text-transform: uppercase;
+    background-color:#FF0000;
+    box-shadow: rgb(0, 0, 0) 0px 1px 18px 6px;
+    border: 2px solid rgb(28, 110, 164);
+    display: inline-block;
+    
+}
+
+.button:hover {
+    background: #FF0000;
+}
+
+.button:active {
+    background: #FF0000;
+}
